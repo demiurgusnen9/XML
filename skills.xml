@@ -1,0 +1,29 @@
+<xml>
+	<skills1>Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC</skills1>
+	<skills2>Что такое клиент-серверная архитектура</skills>
+	<skills3> HTTP Методы запросов на сервер</skills3>
+	<skills4>Коды ответов HTTP сервера</skills4>
+	<skills5>Структуры HTTP запросов и ответов</skills5>
+	<skills6>Что такое JSON, XML. Их структура</skills6>
+	<skills7>Тестирование API через Postman (JS, автотесты API)</skills7>
+	<skills8>Снятие и чтение логов c внешнего сервера</skills8>
+	<skills9>Снифинг http web трафика через Charles и Fiddler</skills9>
+	<skills10>Dev Tools веб браузеров (Google Chrome, FireFox)</skills10>
+	<skills11>VPN. (Как работает, зачем нужен, как использовать, варианты инструментов)</skills11>
+	<skills12>Мобильное тестирование</skills12>
+	<skills13>Особенность iOS, Android, гайдлайны<skills13>
+	<skills14>Сборка iOS приложений на XCode</skills14>
+	<skills15>Сборка Android приложений на Android Studio</skills15>
+	<skills16>ADB (управление андройд девайсами)</skills16>
+	<skills17>Настройка прокси и vpn на iOS и Android</skills17>
+	<skills18>Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android</skills18>
+	<skills19>Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса)</skills19>
+	<skills20>Основы bash скриптинг, автоматизация рутинных задач на сервере</skills20>
+	<skills21>Доступ к удалённым серверам</skills21>
+	<skills22>Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)</skills22>
+	<skills23>База данных Postgres (установка, настройка и использование)</skills23>
+	<skills24>Нереляционная база данных Redis (установка, настройка и использование)</skills24>
+	<skills25>Нагрузочное тестирование в Jmeter</skills25>
+	<skills26>Методология разработки Scrum</skills26>
+	<skills27>Python. (Изучение основ. Создание клиент серверного приложения)</skills27>
+</xml>
