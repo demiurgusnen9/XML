@@ -1,74 +1,103 @@
+This is an educational repository that contains homeworks, completed as part of Vadim Ksendzov's training course on software testing. 
+Here I am learning how to work in GitHub. 
+Below is my homework and solution
+
 # XML
-21. Создать внешний репозиторий c названием XML.
- 22. Клонировать репозиторий XML на локальный компьютер.------------------------$ git clone https://github.com/demiurgusnen9/XML.git
+### Создать внешний репозиторий c названием XML.
+`
+https://github.com/demiurgusnen9/XML.git
+`
+### Клонировать репозиторий XML на локальный компьютер.
+```
+$ git clone https://github.com/demiurgusnen9/XML.git
  
  Cloning into 'XML'...
-remote: Enumerating objects: 3, done.
-remote: Counting objects: 100% (3/3), done.
-remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-Receiving objects: 100% (3/3), done.
- 
- 23. Внутри локального XML создать файл “new.xml”.------------------------------$ cd XML      $ touch new.xml
- 24. Добавить файл под гит.-----------------------------------------------------$ git add new.xml
- 25. Закоммитить файл.----------------------------------------------------------$ git commit -m "add new.xml"
+ remote: Enumerating objects: 3, done.
+ remote: Counting objects: 100% (3/3), done.
+ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+ Receiving objects: 100% (3/3), done.
+```
+### Внутри локального XML создать файл “new.xml”.
+```
+$ cd XML
+$ touch new.xml
+```
+### Добавить файл под гит.
+`
+$ git add new.xml
+`
+### Закоммитить файл.
+```
+$ git commit -m "add new.xml"
  
  [main e7881ba] add new.xml
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 new.xml
- 
- 26. Отправить файл на внешний GitHub репозиторий.------------------------------$ git push
+``` 
+### Отправить файл на внешний GitHub репозиторий.
+```
+$ git push
  
  Enumerating objects: 4, done.
-Counting objects: 100% (4/4), done.
-Delta compression using up to 2 threads
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (3/3), 275 bytes | 275.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/demiurgusnen9/XML.git
-   596d53f..e7881ba  main -> main
-
- 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). 
- Всё написать в формате XML.----------------------------------------------------$ vim new.xml
+ Counting objects: 100% (4/4), done.
+ Delta compression using up to 2 threads
+ Compressing objects: 100% (2/2), done.
+ Writing objects: 100% (3/3), 275 bytes | 275.00 KiB/s, done.
+ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+ To https://github.com/demiurgusnen9/XML.git
+ 596d53f..e7881ba  main -> main
+```
+### Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+```
+$ vim new.xml
  <xml>
         <фио> Masalskaya Alena Viktorovna </фио>
         <возраст>30</возраст>
         <количество домашних животных>1</количество домашних животных>
         <будущая желаемая зарплата>500$</будущая желаемая зарплата>
-</xml>
- 28. Отправить изменения на внешний репозиторий.--------------------------------
+ </xml>
+ ```
+### Отправить изменения на внешний репозиторий.
+```
 $ git commit -am "add info in new.xml"
 
-warning: LF will be replaced by CRLF in new.xml.
-The file will have its original line endings in your working directory
-[main aa2534b] add info in new.xml
+ warning: LF will be replaced by CRLF in new.xml.
+ The file will have its original line endings in your working directory
+ [main aa2534b] add info in new.xml
  1 file changed, 6 insertions(+)
 
 $ git push
 
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
-Delta compression using up to 2 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 457 bytes | 457.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/demiurgusnen9/XML.git
-   e7881ba..aa2534b  main -> main
+ Enumerating objects: 5, done.
+ Counting objects: 100% (5/5), done.
+ Delta compression using up to 2 threads
+ Compressing objects: 100% (3/3), done.
+ Writing objects: 100% (3/3), 457 bytes | 457.00 KiB/s, done.
+ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+ To https://github.com/demiurgusnen9/XML.git
+ e7881ba..aa2534b  main -> main
+```
+### Создать файл preferences.xml
+`
+$ touch preferences.xml
+`
+### В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате XML.
+```
+$ vim preferences.xml
 
- 29. Создать файл preferences.xml-------------------------------------------------------$ touch preferences.xml
- 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, 
- страна которую хотели бы посетить) в формате XML.-----------------------------$ vim preferences.xml
-
-<xml>
+ <xml>
         <Любимый фильм>Трудности перевода</Любимый фильм>
         <Любимый сериал>Клиника</Любимый сериал>
         <Любимая еда>Кукурузные_палочки </Любимая еда>
         <Любимое время года>Зима</Любимое время года>
         <Страна которую хотели бы посетить>Исландия</Страна которую хотели бы посетить>
-</xml>
+ </xml>
+```
+### Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+```
+$ vim skills.xml
 
- 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML------$ vim skills.xml
-
-<xml>
+ <xml>
         <skills1>Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC</skills1>
         <skills2>Что такое клиент-серверная архитектура</skills>
         <skills3> HTTP Методы запросов на сервер</skills3>
@@ -96,43 +125,67 @@ To https://github.com/demiurgusnen9/XML.git
         <skills25>Нагрузочное тестирование в Jmeter</skills25>
         <skills26>Методология разработки Scrum</skills26>
         <skills27>Python. (Изучение основ. Создание клиент серверного приложения)</skills27>
-</xml>
-
-
- 32. Сделать коммит в одну строку.----------------------------------------------------
+ </xml>
+```
+### Сделать коммит в одну строку.
+```
  $ git add . && git commit -m "add preferences.xml and skills.xml with info"
  
  [main 3fd28e1] add preferences.xml and skills.xml with info
  2 files changed, 36 insertions(+)
  create mode 100644 preferences.xml
  create mode 100644 skills.xml
- 
- 33. Отправить сразу 2 файла на внешний репозиторий.---------------------------$ git push
+```
+### Отправить сразу 2 файла на внешний репозиторий.
+```
+$ git push
  
  Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
-Delta compression using up to 2 threads
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 1.74 KiB | 1.74 MiB/s, done.
-Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/demiurgusnen9/XML.git
-   aa2534b..3fd28e1  main -> main
-
- 34. На веб интерфейсе создать файл bug_report.xml.
- 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
- 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 38. Синхронизировать внешний и локальный репозиторий XML------------------------------$ git pull
+ Counting objects: 100% (5/5), done.
+ Delta compression using up to 2 threads
+ Compressing objects: 100% (4/4), done.
+ Writing objects: 100% (4/4), 1.74 KiB | 1.74 MiB/s, done.
+ Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+ To https://github.com/demiurgusnen9/XML.git
+ aa2534b..3fd28e1  main -> main
+```
+### На веб интерфейсе создать файл bug_report.xml.
+`
+done
+`
+### Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+`
+done
+`
+### На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+```
+<bug_report>
+<ID>ID</ID>
+<Summary>Короткое описание</Summary>
+<Steps to Reproduce>Шаги воспроизведения</Steps to Reproduce>
+<Expected Result>Ожидаемый результат</Expected Result>
+<Actual Result>Фактический результат</Actual Result>
+<Severity>Серьезность</Severity>
+</bug_report>
+```
+### Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+`
+done
+`
+### Синхронизировать внешний и локальный репозиторий XML
+```
+$ git pull
  
  remote: Enumerating objects: 7, done.
-remote: Counting objects: 100% (7/7), done.
-remote: Compressing objects: 100% (5/5), done.
-remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (6/6), 1.47 KiB | 68.00 KiB/s, done.
-From https://github.com/demiurgusnen9/XML
-   3fd28e1..23cd44f  main       -> origin/main
-Updating 3fd28e1..23cd44f
-Fast-forward
+ remote: Counting objects: 100% (7/7), done.
+ remote: Compressing objects: 100% (5/5), done.
+ remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+ Unpacking objects: 100% (6/6), 1.47 KiB | 68.00 KiB/s, done.
+ From https://github.com/demiurgusnen9/XML
+ 3fd28e1..23cd44f  main       -> origin/main
+ Updating 3fd28e1..23cd44f
+ Fast-forward
  bug_report.xml | 8 ++++++++
  1 file changed, 8 insertions(+)
  create mode 100644 bug_report.xml
+```
