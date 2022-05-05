@@ -1,1 +1,8 @@
-
+<bug_report>
+  <ID>ID</ID>
+  <Summary>Короткое описание</Summary>
+  <Steps to Reproduce>Шаги воспроизведения</Steps to Reproduce>
+  <Expected Result>Ожидаемый результат</Expected Result>
+  <Actual Result>Фактический результат</Actual Result>
+  <Severity>Серьезность</Severity>
+</bug_report>
